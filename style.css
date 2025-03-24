@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* Importing the Great Vibes font from Google Fonts */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url(./pink-heart.jpg) no-repeat center center fixed; /* Setting the background image */
+    background-size: cover; /* Ensuring the background image covers the entire area */
+    /* background: rgb(255,117,140);
+    background: linear-gradient(180deg, rgba(255,117,140,1) 43%, rgba(255,126,179,1) 67%); */
+}
+
+.heading {
+    display: flex;
+    /* width: 25%; */
+    justify-content: center;
+    /* text-align: justify; */
+    align-items: center;
+    font-family: "Great Vibes", cursive; /* Applying the Great Vibes font */
+    font-size: 50px; /* Setting the font size */
+    padding: 20px; /* Adding padding */
+    color: rgba(255, 255, 255, 0.918); /* Setting the text color */
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 50%, rgba(255,0,0,1) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+   padding: 20px; /* Adding padding */
+   border-radius: 10px; /* Rounding the corners */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* font-weight: 400; Setting the font weight
+    padding: 20px; /* Adding padding */
+    border-radius: 10px; /* Rounding the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+}
+
+input {
+    padding: 10px; /* Adding padding inside the input fields */
+    border-radius: 5px; /* Rounding the corners of the input fields */
+    margin: 10px 0; /* Adding margin */
+    border: 1px solid #ccc; /* Setting the border color and thickness */
+    width: 90%; /* Setting the width of the input fields */
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+}
+
+input:focus {
+    border-color: #ff758c; /* Changing the border color when the input is focused */
+    border-width: 2px; /* Increasing the border thickness when focused */
+    outline: none; /* Removing the default outline */
+}
+
+button {
+    width: 30%; /* Setting the width of the buttons */
+    padding: 10px; /* Adding padding inside the buttons */
+    border-radius: 5px; /* Rounding the corners of the buttons */
+    margin: 10px 0; /* Adding margin */
+    color: white; /* Setting the text color */
+    cursor: pointer; /* Changing the cursor to pointer on hover */
+    border: none; /* Removing the default border */
+    background: #ff758c; /* Setting the background color */
+    /* font-size: 25px; /* Setting the font size */
+    /* font-family: "Great Vibes", cursive; */ 
+    font-weight: bold;
+}
+
+button:hover {
+    background: #55fa79; /* Changing the background color on hover */
+}
+
+#result {
+    font-size: 35px; /* Setting the font size */
+    font-weight: bold; /* Making the text bold */
+    margin-top: 15px; /* Adding margin at the top */
+    color: #fd506d;
+}
+
+p {
+    border-radius: 5px; /* Rounding the corners */
+    width: 100%; /* Setting the width */
+    font-size: 20px; /* Setting the font size */
+    font-family: "Great Vibes", cursive; /* Applying the Great Vibes font */
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    .maincontainer {
+        width: 95%;
+    }
+
+    input, button {
+        font-size: 0.875rem;
+    }
+
+    #result {
+        font-size: 1.25rem;
+    }
+}
