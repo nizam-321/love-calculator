@@ -15,6 +15,7 @@ body {
 
 .heading {
     display: flex;
+    margin-bottom: 100px;
     /* width: 25%; */
     justify-content: center;
     /* text-align: justify; */
@@ -23,9 +24,9 @@ body {
     font-size: 50px; /* Setting the font size */
     padding: 20px; /* Adding padding */
     color: rgba(255, 255, 255, 0.918); /* Setting the text color */
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 50%, rgba(255,0,0,1) 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
+    /* background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 50%, rgba(255,0,0,1) 100%); */
+   /* -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */ */
    padding: 20px; /* Adding padding */
    border-radius: 10px; /* Rounding the corners */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -36,7 +37,7 @@ body {
 }
 
 input {
-    padding: 10px; /* Adding padding inside the input fields */
+    padding: 15px; /* Adding padding inside the input fields */
     border-radius: 5px; /* Rounding the corners of the input fields */
     margin: 10px 0; /* Adding margin */
     border: 1px solid #ccc; /* Setting the border color and thickness */
@@ -52,9 +53,10 @@ input:focus {
 }
 
 button {
-    width: 30%; /* Setting the width of the buttons */
+    width: 40%; /* Setting the width of the buttons */
     padding: 10px; /* Adding padding inside the buttons */
-    border-radius: 5px; /* Rounding the corners of the buttons */
+    border-radius: 25px; /* Rounding the corners of the buttons */
+
     margin: 10px 0; /* Adding margin */
     color: white; /* Setting the text color */
     cursor: pointer; /* Changing the cursor to pointer on hover */
@@ -85,17 +87,19 @@ p {
 
 @media (max-width: 768px) {
     .heading {
-        font-size: 1.5rem;
+        font-size: 2.4rem;
     }
     .maincontainer {
         width: 95%;
     }
 
-    input, button {
-        font-size: 0.875rem;
+    input {
+        font-size: 2.5rem;
     }
-
+    button {
+        font-size: 2rem;
+    } 
     #result {
-        font-size: 1.25rem;
+        font-size: 2.45rem;
     }
 }
